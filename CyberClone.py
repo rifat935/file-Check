@@ -43,7 +43,7 @@ loc = requests.get('https://ipapi.com/ip_api.php?ip=' + ip, headers={'Referer': 
 def linex():
 	os.system('echo  "\n ======================================\n" | lolcat -a -d 2 -s 50')
 def logo():
-	os.system('echo "\033[0;93m ____  __  ___  ___  _  _  __ \n   \033[0;93m(  _ \(  )/ __)/ __)/ )( \(  ) \n  \033[0;96m ) __/ )(( (__( (__ ) __ ( )( \n  \033[0;96m(__)  (__)\___)\___)\_)(_/(__)\n  \033[0;93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n  \033[0;91mAUTHOR   : PSYCHO PICCHI\n  \033[0;93mFACEBOOK : PSYCHO PICCHI\n  \033[0;96mGITHUB   : PSYCHO-PICCHI\n  \033[0;95mTOOLS    : FILE CLONING / DUMP\n   \033[0;96m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n  """                                            " | lolcat -a -d 2 -s 50')	
+	os.system('echo "\033[0;93m ____  __  ___  ___  _  _  __ \n   \033[0;93m(  _ \(  )/ __)/ __)/ )( \(  ) \n  \033[0;96m ) __/ )(( (__( (__ ) __ ( )( \n  \033[0;96m(__)  (__)\___)\___)\_)(_/(__)\n  \033[0;93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n  \033[0;91mAUTHOR   : PSYCHO PICCHI\n  \033[0;93mFACEBOOK : PSYCHO PICCHI\n  \033[0;96mGITHUB   : PSYCHO-PICCHI\n  \033[0;95mTOOLS    : FILE CLONING / DUMP\n   \033[0;96m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n " | lolcat -a -d 2 -s 50')	
 
 def main():
 	os.system("clear")
