@@ -1,9 +1,7 @@
 #!/usr/bin/python2
 # -*- coding: utf-8
-
-#AUTHOR : Cyber ALAMiN (Cyber Psycho)
 #OPEN SOURCE :)
-#DON'T FORGET TO GIVE CREDIT TO Cyber ALAMiN
+#DON'T FORGET TO GIVE CREDIT TO Psycho Picchi
 
 
 try:
@@ -42,9 +40,26 @@ loc = requests.get('https://ipapi.com/ip_api.php?ip=' + ip, headers={'Referer': 
 	
 def linex():
 	os.system('echo  "\n ======================================\n" | lolcat -a -d 2 -s 50')
-def logo():
-	os.system('echo "\n  ░█████╗░██╗░░░░░░█████╗░███╗░░░███╗██╗███╗░░██╗\n  ██╔══██╗██║░░░░░██╔══██╗████╗░████║██║████╗░██║\n  ███████║██║░░░░░███████║██╔████╔██║██║██╔██╗██║\n  ██╔══██║██║░░░░░██╔══██║██║╚██╔╝██║██║██║╚████║\n  ██║░░██║███████╗██║░░██║██║░╚═╝░██║██║██║░╚███║\n  ╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝╚═╝░░╚══\n  \n    ╔═════════════════════════════╗\n    ║ TOOL NAME: Cyber Clone      ║\n    ║ AUTHOR   : Cyber ALAMiN     ║\n    ║ GITHUB   : Cyber-ALAMiN     ║\n    ╚═════════════════════════════╝" | lolcat -a -d 2 -s 50')	
 
+logo = """ 
+\033[0;93m ____  __  ___  ___  _  _  __  
+\033[0;93m(  _ \(  )/ __)/ __)/ )( \(  ) 
+\033[0;96m ) __/ )(( (__( (__ ) __ ( )(  
+\033[0;96m(__)  (__)\___)\___)\_)(_/(__) 
+ 
+ 
+ 
+\033[0;93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\033[0;91mAUTHOR   : PSYCHO PICCHI
+ 
+\033[0;93mFACEBOOK : PSYCHO PICCHI
+ 
+\033[0;96mGITHUB   : PSYCHO-PICCHI 
+ 
+\033[0;95mTOOLS    : FILE CLONING / DUMP 
+\033[0;96m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  """                                            
+	
 def main():
 	os.system("clear")
 	logo()
