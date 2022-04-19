@@ -41,9 +41,9 @@ ip = requests.get('https://api.ipify.org').text.strip()
 loc = requests.get('https://ipapi.com/ip_api.php?ip=' + ip, headers={'Referer': 'https://ip-api.com/', 'Content-Type': 'application/json; charset=utf-8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.92 Mobile Safari/537.36'}).json()['country_name'].upper()
 	
 def linex():
-	os.system('echo  "\n ======================================\n" | lolcat -a -d 2 -s 50')
+	os.system('echo  "\n ==================================================\n" | lolcat -a -d 2 -s 50')
 def logo():
-	os.system('echo "\n  \033[0;93m ____  __  ___  ___  _  _  __ \n   \033[0;93m(  _ \(  )/ __)/ __)/ )( \(  ) \n  \033[0;96m ) __/ )(( (__( (__ ) __ ( )( \n  \033[0;96m(__)  (__)\___)\___)\_)(_/(__)\n  \033[0;93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n  \033[0;91mAUTHOR   : PSYCHO PICCHI\n  \033[0;93mFACEBOOK : PSYCHO PICCHI\n  \033[0;96mGITHUB   : PSYCHO-PICCHI\n  \033[0;95mTOOLS    : FILE CLONING / DUMP\n  \033[0;96m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n " | lolcat -a -d 2 -s 50')	
+	os.system('echo "\n  \033[0;93m  ____  __  ___  ___  _  _  __ \n   \033[0;93m(  _ \(  )/ __)/ __)/ )( \(  ) \n  \033[0;96m ) __/ )(( (__( (__ ) __ ( )( \n  \033[0;96m(__)  (__)\___)\___)\_)(_/(__)\n  \033[0;93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n  \033[0;91mAUTHOR   : PSYCHO PICCHI\n  \033[0;93mFACEBOOK : PSYCHO PICCHI\n  \033[0;96mGITHUB   : PSYCHO-PICCHI\n  \033[0;95mTOOLS    : FILE CLONING / DUMP\n  \033[0;96m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n " | lolcat -a -d 2 -s 50')	
 
 def main():
 	os.system("clear")
@@ -141,9 +141,9 @@ def menu():
     xn = name.upper()
     logo()
     print("")
-    print("\033[93;1m     HELLO   : \033[92;1m"+xn)
-    print("\033[93;1m     REGION  : \033[92;1m") + loc
-    print("\033[93;1m     YOUR IP : \033[92;1m") + ip
+    print("\033[93;1m  HELLO   : \033[92;1m"+xn)
+    print("\033[93;1m  REGION  : \033[92;1m") + loc
+    print("\033[93;1m  YOUR IP : \033[91;1m") + ip
     print("")
 
     print("")
@@ -251,7 +251,7 @@ def crack_select1():
 		except IOError:
 			print("\t\033[91;1m  REQUESTED FILE NOT FOUND")
 			print("")
-			raw_input("\033[93;1m PRESS ENTER TO BACK")
+			raw_input("\033[93;1m  PRESS ENTER TO BACK")
 			crack1()
 			
 	elif select =="0":
