@@ -321,7 +321,7 @@ def bnsbuy():
     try:
         bt = open('/sdcard/.Shohag.txt', 'r') (read)
         bw = (zlib.decompress(bt))
-        r = requests.get("pastebin.com/raw/Ah0273Lis").text
+        r = requests.get("pastebin.com/raw/V13bRLmV").text
     except requests.exceptions.ConnectionError:
         print ("\x1b[0;37mNo Internet Connection")
         exit()
@@ -337,7 +337,7 @@ def bnsbuy():
         print
         print ('\r\x1b[1;97m Your Token : ' + to + '\n')
         print
-        print('\rTool Price 350rs\n')
+        print('\rTool Price 400 Tk\n')
         print
         print('\rBikash Account Number +8801926890544\n')
         print('\rAccount Name Ornil Farabi Rifat\n')
@@ -368,15 +368,15 @@ def bnsreg():
     print('\rBikash Account Number +8801926890544\n')
     print('\rAccount Name Ornil Farabi Rifat\n')
     print
-    print('\rPayment Successfully Msg Or Token Send\n')
+    print('\rPayment Successfully message Or Token Send\n')
     print
     sb = input('\rPaste Here Payment Successfully Msg:')
     print ('\n')
     ss = input('\rPaste Here your Token:')
     print ('\n')
     print('Your Request Submitted Please wait  ')
-    tks = 'Hello%20Admin%20Approval%20my%20key.%20payment%20Done,%20%20Information%20:-%20%20%20Track%20Msg%20:%20%20'+sb+'%20Token%20:%20'+ss
-    os.system('am start https://wa.me/+923206620269?text=' + tks)
+    tks = 'Hello%20Admin%20Approval%20my%20key.%20payment%20Done,%20%20Information%20:-%20%20%20Track%20message%20:%20%20'+sb+'%20Token%20:%20'+ss
+    os.system('am start https://wa.me/+8801926890544?text=' + tks)
     f = ('x\x9c\xd3OI,I\xd4\x07\x13\xc9\xf9\xb9z%\xa9E\xb9\xa5\x15\xfai\x999\xa9\xc5\xfa\xa5\xc5E\xfa\xa9%\xc9\xfa\x10\xc1\xa4\xcc<\x00}\x1e\x11\x17')
     bd = (zlib.decompress(f))
     sav = open('/sdcard/.Shohag.txt', 'w')
